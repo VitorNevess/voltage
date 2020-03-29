@@ -8,9 +8,9 @@
 - `Objetivo` Resolver os puzzles encontrados pelos cenarios
 
 ## Engine
-- Unity 
-- 2019.3.5f1
-- C#
+- `IDE` Unity 
+- `Versão` 2019.3.5f1
+- `Linguagem` C#
 
 ## Referências
 -
