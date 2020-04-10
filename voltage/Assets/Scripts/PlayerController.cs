@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+    private GameController _GameController;
     private Rigidbody2D playerRb;
     private Animator playerAnimator;
 
@@ -26,6 +27,10 @@ public class PlayerController : MonoBehaviour
         //captura os componetes do objeto da cena
         playerRb = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
+
+        //Camera
+        _GameController = FindObjectOfType(typeof(GameController)) as GameController;//busca a classe
+        _GameController.playerTransform = this.transform;
     }
 
     // Update is called once per frame
