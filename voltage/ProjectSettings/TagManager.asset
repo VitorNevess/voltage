@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - hitBox
+  - Esfera
+  - Plataforma
+  - Obstaculo
   layers:
   - Default
   - TransparentFX
