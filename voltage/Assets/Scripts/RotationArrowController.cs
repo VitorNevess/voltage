@@ -82,7 +82,7 @@ public class RotationArrowController : MonoBehaviour
 
             //float moveX = Input.GetAxis("Mouse X");
             float moveY = Input.GetAxis("Mouse Y");
-
+            moveY = moveY*-1;
             if (zRotation < 90 && moveY > 0)
             {
                 zRotation += 2.5f;
