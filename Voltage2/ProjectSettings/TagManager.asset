@@ -15,6 +15,9 @@ TagManager:
   - esfera
   - Plataform
   - reflete
+  - hitBox
+  - Obstaculo
+  - Plataforma
   layers:
   - Default
   - TransparentFX
@@ -51,4 +54,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 1051816551
+    locked: 0
+  - name: first plane
+    uniqueID: 1547749501
     locked: 0
